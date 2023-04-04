@@ -1,5 +1,7 @@
 // TODO: dynamic data
 
+import Link from 'next/link';
+
 export default function Nav() {
   const date = new Date().toDateString();
   return (
@@ -12,9 +14,9 @@ export default function Nav() {
           {date}
         </div>
         <div className="date flex items-center justify-center gap-3 flex-1 border-x-2 border-black">
-          <button>BLOG</button>
-          <button>ABOUT</button>
-          <button>WEBSITE</button>
+          <Link href="/">BLOG</Link>
+          <Link href="/about">ABOUT</Link>
+          <Link href="https://latrovaliev.dev">WEBSITE</Link>
         </div>
         <div className="date flex items-center justify-center gap-3 px-6">
           <div>Posts: 5</div>
