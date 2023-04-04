@@ -1,3 +1,5 @@
+// TODO: dynamic data
+
 export default function Nav() {
   const date = new Date().toDateString();
   return (
@@ -16,7 +18,6 @@ export default function Nav() {
         </div>
         <div className="date flex items-center justify-center gap-3 px-6">
           <div>Posts: 5</div>
-          <div>Price: 0$</div>
         </div>
       </div>
     </>
