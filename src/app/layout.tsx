@@ -13,9 +13,11 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="flex flex-col p-20 items-center">
-        <Nav />
-        {children}
+      <body className="flex justify-center">
+        <div className="flex w-3/4 flex-col p-20 items-center">
+          <Nav />
+          {children}
+        </div>
       </body>
     </html>
   );

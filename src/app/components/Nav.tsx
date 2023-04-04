@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Nav() {
   const date = new Date().toDateString();
   return (
-    <>
+    <div className="my-3">
       <h1 className="text-9xl font-serif font-extrabold text-gray-800">
         IOAN{"'"}S BLOG
       </h1>
@@ -22,6 +22,6 @@ export default function Nav() {
           <div>Posts: 5</div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
