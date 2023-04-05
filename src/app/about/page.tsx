@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main className="w-full flex flex-col">
       <div className="d-photo-description flex gap-3">
-        <div className="w-2/4">
+        <div className="w-2/4 italic">
           <Image
             className="aspect-auto "
             src={mePic}
